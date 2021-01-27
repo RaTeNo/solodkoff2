@@ -1,0 +1,354 @@
+@media (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 28px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu,
+    header .search
+    {
+        display: none;
+    }
+
+
+
+    #menu
+    {
+        height: 100%;
+        height: -moz-available;
+        height: -webkit-fill-available;
+        height:         fill-available;
+        padding: 80px 40px 40px;
+    }
+
+
+    #menu .search
+    {
+        display: block;
+    }
+
+
+
+    #menu .list > * + *
+    {
+        margin-top: 25px;
+    }
+
+    #menu .list a
+    {
+        line-height: 26px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+
+        background: none;
+        box-shadow: none;
+
+        column-gap: 40px;
+        column-count: 2;
+    }
+
+    aside > *
+    {
+        transform: translateZ(0);
+
+        --webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    aside > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+
+    aside .blog_author
+    {
+        margin-bottom: 0;
+    }
+
+
+
+    aside .top5_sites .item .logo
+    {
+        width: 125px;
+        padding-right: 0;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 100px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 70px;
+    }
+
+    .first_section .cont
+    {
+        min-height: 650px;
+        padding-top: 140px;
+    }
+
+
+    .first_section .info
+    {
+        width: 470px;
+        padding-left: 0;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 60px;
+        line-height: 57px;
+    }
+
+    .first_section .info .title span
+    {
+        font-size: 26px;
+
+        width: 57px;
+        height: 57px;
+    }
+
+    .first_section .info .sub_title
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .first_section .info .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 410px;
+    }
+
+
+    .first_section .img
+    {
+        left: -35px;
+
+        width: 500px;
+        margin-left: 0;
+    }
+
+
+    .first_section .photo
+    {
+        right: 20px;
+
+        width: 320px;
+        margin-right: 0;
+    }
+
+    .first_section .photo:before
+    {
+        bottom: -2px;
+
+        width: 380px;
+        height: 292px;
+    }
+
+
+
+    /*------------------
+        Promo blocks
+    ------------------*/
+    .promo_blocks .top5_sites,
+    .promo_blocks .subscribe
+    {
+        width: 100%;
+    }
+
+
+    .promo_blocks .subscribe
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------
+        Top 5 sites
+    -----------------*/
+    .top5_sites .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .top5_sites .all_link
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+    .subscribe form
+    {
+        padding: 75px 120px 20px;
+    }
+
+    .subscribe form .img
+    {
+        left: -102px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .head
+    {
+        margin-bottom: 50px;
+        padding: 30px 0;
+    }
+
+
+    .categories .row
+    {
+        padding: 0;
+    }
+
+
+    .categories .cat br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Posts
+    -----------*/
+    .posts .head
+    {
+        margin-bottom: 25px;
+        padding: 40px 0;
+    }
+
+
+    .posts .row > *,
+    .posts.view2 .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .posts.view2 .row
+    {
+        --posts_count: 2;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+    footer .copyright
+    {
+        line-height: 15px;
+
+        width: 100%;
+        margin-right: 0;
+        padding-right: 70px;
+    }
+
+
+    footer .privecy_policy
+    {
+        margin-top: 15px;
+        margin-right: 0;
+
+        text-align: left;
+    }
+
+    .soc_fixed{
+        bottom: 50%;
+    }
+    .soc_fixed a.wp, .soc_fixed a.tg{
+        display: none;
+    }
+}

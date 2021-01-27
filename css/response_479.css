@@ -1,0 +1,339 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 25px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    #menu
+    {
+        padding: 80px 20px 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .subscribe form
+    {
+        padding: 47px 20px 15px;
+    }
+
+    aside .subscribe form .img
+    {
+        top: -45px;
+        left: 7px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 11px;
+    }
+
+
+    .page_title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 48px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .text_block h2
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .text_block ol li,
+    .text_block ul li
+    {
+        padding-left: 35px;
+    }
+
+    .text_block ol li:before,
+    .text_block ul li:before
+    {
+        line-height: 23px;
+
+        top: 0;
+
+        width: 23px;
+        height: 23px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 480px;
+        padding-top: 90px;
+    }
+
+
+    .first_section .info .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        width: 225px;
+    }
+
+
+    .first_section .photo
+    {
+        right: -50px;
+
+        width: 220px;
+    }
+
+    .first_section .photo:before
+    {
+        bottom: -2px;
+
+        width: 320px;
+        height: 246px;
+    }
+
+
+
+    /*-----------------
+        Top 5 sites
+    -----------------*/
+    .top5_sites .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .top5_sites .item > * + *
+    {
+        margin-left: 0;
+    }
+
+    .top5_sites .item .logo img
+    {
+        max-height: 20px;
+    }
+
+    .top5_sites .item .logo,
+    .top5_sites .item .links
+    {
+        width: 125px;
+    }
+
+    .top5_sites .item .rating
+    {
+        width: 57px;
+    }
+
+    .top5_sites .item .rating > *
+    {
+        width: 9px;
+        height: 9px;
+
+        background-size: 100% auto;
+    }
+
+    .top5_sites .item .rating > * + *
+    {
+        margin-left: 3px;
+    }
+
+    .top5_sites .item .links .review_link,
+    .top5_sites .item .links .site_link
+    {
+        font-size: 11px;
+        line-height: 26px;
+
+        height: 28px;
+        padding: 0 12px;
+
+        border-radius: 15px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .block_head
+    {
+        margin-bottom: 35px;
+    }
+
+    .subscribe .block_head .desc
+    {
+        width: 100%;
+    }
+
+
+    .subscribe form
+    {
+        padding: 40px 30px 15px;
+    }
+
+    .subscribe form .img
+    {
+        top: -69px;
+        left: 4px;
+
+        width: 280px;
+    }
+
+
+    .subscribe .socials .name
+    {
+        width: 100%;
+        margin: 0 0 10px;
+
+        text-align: center;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-----------
+        Posts
+    -----------*/
+    .posts .post .info
+    {
+        padding: 15px 20px 20px;
+    }
+
+
+    .posts .post .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .posts .post .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .posts .post .add_comment_link,
+    .posts .post .comments_count,
+    .posts.view2 .post .add_comment_link,
+    .posts.view2 .post .comments_count
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share .title
+    {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .children,
+    .comments .comment + .comment
+    {
+        margin-top: 20px;
+    }
+
+
+    .comments .children
+    {
+        padding-left: 30px;
+    }
+
+
+    .comments .comment .comment-body
+    {
+        padding-top: 8px;
+    }
+
+    .comments .comment .text_block
+    {
+        margin-top: 20px;
+        margin-left: -79px;
+    }
+
+    .comments .comment .reply_link
+    {
+        margin-left: -79px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+}

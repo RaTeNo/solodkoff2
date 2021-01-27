@@ -1,0 +1,336 @@
+@media (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        margin-bottom: 25px;
+    }
+
+
+    #menu
+    {
+        width: 480px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    aside .subscribe form .img
+    {
+        top: -70px;
+        right: 0;
+        left: -35px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 65px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 15px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *,
+    .form .columns > *.width1of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .text_block h2
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .text_block h3
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 520px;
+        padding-top: 110px;
+    }
+
+
+    .first_section .info
+    {
+        width: 100%;
+    }
+
+
+    .first_section .info .title,
+    .first_section .info .sub_title
+    {
+        display: none;
+    }
+
+    .first_section .info .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        width: 255px;
+    }
+
+
+    .first_section .photo
+    {
+        right: -20px;
+
+        width: 250px;
+    }
+
+    .first_section .photo:before
+    {
+        bottom: -2px;
+
+        width: 320px;
+        height: 246px;
+    }
+
+
+    .first_section .mob_socials
+    {
+        display: flex;
+    }
+
+
+    .first_section .img
+    {
+        display: none;
+    }
+
+
+    .first_section .lines > *:nth-child(2)
+    {
+        left: 50%;
+    }
+
+    .first_section .lines > *:nth-child(3),
+    .first_section .lines > *:nth-child(4)
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Top 5 sites
+    -----------------*/
+    .top5_sites .item .logo
+    {
+        width: 135px;
+    }
+
+    .top5_sites .item .links
+    {
+        width: 150px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe form
+    {
+        padding: 65px 65px 20px;
+    }
+
+    .subscribe form .img
+    {
+        top: -72px;
+        left: 5px;
+
+        width: 338px;
+    }
+
+
+    .subscribe .socials .name
+    {
+        margin-right: 25px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .head
+    {
+        margin-bottom: 40px;
+        padding: 25px 0;
+    }
+
+
+    .categories .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .categories .cat
+    {
+        font-size: 12px;
+    }
+
+    .categories .cat .icon
+    {
+        margin-bottom: 15px;
+    }
+
+
+    .categories .lines > *:nth-child(2)
+    {
+        left: 50%;
+    }
+
+    .categories .lines > *:nth-child(3),
+    .categories .lines > *:nth-child(4)
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Posts
+    -----------*/
+    .posts .head
+    {
+        margin-bottom: 20px;
+        padding: 30px 0;
+    }
+
+
+    .posts .row > *,
+    .posts.view2 .row > *,
+    .content .posts .row > *,
+    .content .posts.view2 .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .posts .post .info
+    {
+        padding: 20px 25px 25px;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .comment .name
+    {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+
+    /*-----------------
+        Add comment
+    -----------------*/
+    .comment-respond .block_title
+    {
+        padding-left: 0;
+    }
+
+
+    .comment-respond .form .smiles img
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+}
